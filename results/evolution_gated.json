@@ -1,0 +1,72 @@
+{
+  "backend": "MOCK",
+  "mode": "gated",
+  "label_note": "MOCK results \u2014 set SRH_BACKEND and API keys for real runs",
+  "generated_at": "2026-10-28T20:18:21+00:00",
+  "generations": [
+    {
+      "generation": 0,
+      "train_score": 0.2,
+      "heldout_score": 0.0,
+      "accepted": true,
+      "edit_summary": "Add token for binary_count",
+      "backend": "MOCK"
+    },
+    {
+      "generation": 1,
+      "train_score": 0.4,
+      "heldout_score": 0.0,
+      "accepted": true,
+      "edit_summary": "Add token for json_field",
+      "backend": "MOCK"
+    },
+    {
+      "generation": 2,
+      "train_score": 0.6,
+      "heldout_score": 0.0,
+      "accepted": true,
+      "edit_summary": "Add token for modulo",
+      "backend": "MOCK"
+    },
+    {
+      "generation": 3,
+      "train_score": 0.8,
+      "heldout_score": 0.0,
+      "accepted": true,
+      "edit_summary": "Add token for palindrome",
+      "backend": "MOCK"
+    },
+    {
+      "generation": 4,
+      "train_score": 1.0,
+      "heldout_score": 0.0,
+      "accepted": true,
+      "edit_summary": "Add token for sum_array",
+      "backend": "MOCK"
+    },
+    {
+      "generation": 5,
+      "train_score": 1.0,
+      "heldout_score": 0.2,
+      "accepted": true,
+      "edit_summary": "Patch skill error-handling with held-out token",
+      "backend": "MOCK"
+    },
+    {
+      "generation": 6,
+      "train_score": 1.0,
+      "heldout_score": 0.6,
+      "accepted": true,
+      "edit_summary": "Patch skill tdd with held-out token",
+      "backend": "MOCK"
+    },
+    {
+      "generation": 7,
+      "train_score": 1.0,
+      "heldout_score": 0.8,
+      "accepted": true,
+      "edit_summary": "Patch skill research with held-out token",
+      "backend": "MOCK"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+id: base64_decode
+split: heldout
+prompt: |
+  Decode base64 "SGk=" to text. Reply with exactly one line: ANSWER: Hi
+expected: "ANSWER: Hi"
+mock_tokens: ["TOKEN_HELDOUT_ENCODING"]
+tags: [coding]

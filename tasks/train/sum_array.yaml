@@ -1,0 +1,8 @@
+id: sum_array
+split: train
+prompt: |
+  What is the sum of the integers 1 through 5?
+  Reply with exactly one line: ANSWER: 15
+expected: "ANSWER: 15"
+mock_tokens: ["TOKEN_SUM_ARRAY"]
+tags: [math]

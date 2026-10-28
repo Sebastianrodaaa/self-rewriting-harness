@@ -1,0 +1,7 @@
+id: gcd
+split: heldout
+prompt: |
+  What is gcd(48, 18)? Reply with exactly one line: ANSWER: 6
+expected: "ANSWER: 6"
+mock_tokens: ["TOKEN_HELDOUT_MATH"]
+tags: [math]
