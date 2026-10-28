@@ -1,0 +1,7 @@
+id: palindrome
+split: train
+prompt: |
+  Is "level" a palindrome? Reply with exactly one line: ANSWER: yes
+expected: "ANSWER: yes"
+mock_tokens: ["TOKEN_PALINDROME"]
+tags: [reasoning]

@@ -1,0 +1,8 @@
+id: logic
+split: heldout
+prompt: |
+  If all cats are mammals and some mammals fly, can we conclude some cats fly?
+  Reply with exactly one line: ANSWER: no
+expected: "ANSWER: no"
+mock_tokens: ["TOKEN_HELDOUT_LOGIC"]
+tags: [reasoning]

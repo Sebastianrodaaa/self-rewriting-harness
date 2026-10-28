@@ -1,0 +1,8 @@
+id: binary_count
+split: train
+prompt: |
+  How many 1 bits in the binary representation of 13?
+  Reply with exactly one line: ANSWER: 3
+expected: "ANSWER: 3"
+mock_tokens: ["TOKEN_BINARY_COUNT"]
+tags: [reasoning]

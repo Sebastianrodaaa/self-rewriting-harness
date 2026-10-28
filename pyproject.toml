@@ -1,0 +1,31 @@
+[project]
+name = "self-rewriting-harness"
+version = "0.1.0"
+description = "Agent runtime that rewrites its harness from failure traces with held-out gating"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "pyyaml>=6.0",
+  "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+  "ruff>=0.6",
+  "pillow>=10.0",
+]
+
+[project.scripts]
+srh-run = "runtime.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["runtime*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

@@ -1,0 +1,72 @@
+{
+  "backend": "MOCK",
+  "mode": "frozen",
+  "label_note": "MOCK results \u2014 set SRH_BACKEND and API keys for real runs",
+  "generated_at": "2026-10-28T20:18:20+00:00",
+  "generations": [
+    {
+      "generation": 0,
+      "train_score": 0.0,
+      "heldout_score": 0.0,
+      "accepted": false,
+      "edit_summary": "(frozen)",
+      "backend": "MOCK"
+    },
+    {
+      "generation": 1,
+      "train_score": 0.0,
+      "heldout_score": 0.0,
+      "accepted": false,
+      "edit_summary": "(frozen)",
+      "backend": "MOCK"
+    },
+    {
+      "generation": 2,
+      "train_score": 0.0,
+      "heldout_score": 0.0,
+      "accepted": false,
+      "edit_summary": "(frozen)",
+      "backend": "MOCK"
+    },
+    {
+      "generation": 3,
+      "train_score": 0.0,
+      "heldout_score": 0.0,
+      "accepted": false,
+      "edit_summary": "(frozen)",
+      "backend": "MOCK"
+    },
+    {
+      "generation": 4,
+      "train_score": 0.0,
+      "heldout_score": 0.0,
+      "accepted": false,
+      "edit_summary": "(frozen)",
+      "backend": "MOCK"
+    },
+    {
+      "generation": 5,
+      "train_score": 0.0,
+      "heldout_score": 0.0,
+      "accepted": false,
+      "edit_summary": "(frozen)",
+      "backend": "MOCK"
+    },
+    {
+      "generation": 6,
+      "train_score": 0.0,
+      "heldout_score": 0.0,
+      "accepted": false,
+      "edit_summary": "(frozen)",
+      "backend": "MOCK"
+    },
+    {
+      "generation": 7,
+      "train_score": 0.0,
+      "heldout_score": 0.0,
+      "accepted": false,
+      "edit_summary": "(frozen)",
+      "backend": "MOCK"
+    }
+  ]
+}

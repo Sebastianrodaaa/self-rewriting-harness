@@ -1,0 +1,8 @@
+id: regex
+split: heldout
+prompt: |
+  Does the string "abc123" match the regex ^[a-z]+[0-9]+$?
+  Reply with exactly one line: ANSWER: yes
+expected: "ANSWER: yes"
+mock_tokens: ["TOKEN_HELDOUT_REGEX"]
+tags: [coding]
