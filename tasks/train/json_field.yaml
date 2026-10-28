@@ -1,0 +1,8 @@
+id: json_field
+split: train
+prompt: |
+  Given JSON {"user":{"name":"Ada"}} what is the name field?
+  Reply with exactly one line: ANSWER: Ada
+expected: "ANSWER: Ada"
+mock_tokens: ["TOKEN_JSON_FIELD"]
+tags: [coding]
