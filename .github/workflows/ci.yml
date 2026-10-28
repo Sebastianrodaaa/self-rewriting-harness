@@ -17,16 +17,15 @@ jobs:
         run: |
           pip install -e ".[dev]"
       - name: Ruff
-        run: ruff check .
+        run: python3 -m ruff check .
       - name: Pytest (mock evolution)
         env:
           SRH_BACKEND: mock
-        run: pytest -q
+        run: python3 -m pytest -q
       - name: Mock evolution + plot
         env:
           SRH_BACKEND: mock
         run: |
-          python3 -m pip install -e ".[dev]"
           bash scripts/run_mock_demo.sh
           test -f results/heldout_generations.png
           grep -q MOCK results/evolution_gated.json
