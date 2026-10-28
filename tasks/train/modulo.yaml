@@ -1,0 +1,7 @@
+id: modulo
+split: train
+prompt: |
+  What is 17 mod 5? Reply with exactly one line: ANSWER: 2
+expected: "ANSWER: 2"
+mock_tokens: ["TOKEN_MODULO"]
+tags: [math]

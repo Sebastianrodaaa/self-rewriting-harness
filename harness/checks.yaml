@@ -1,0 +1,5 @@
+# Pluggable response checks referenced by tasks
+formats:
+  answer_line:
+    description: "Response must contain a line ANSWER: <value>"
+    pattern: "^ANSWER:\\s*(.+)$"

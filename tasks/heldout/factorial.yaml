@@ -1,0 +1,7 @@
+id: factorial
+split: heldout
+prompt: |
+  What is 5 factorial? Reply with exactly one line: ANSWER: 120
+expected: "ANSWER: 120"
+mock_tokens: ["TOKEN_HELDOUT_MATH"]
+tags: [math]
